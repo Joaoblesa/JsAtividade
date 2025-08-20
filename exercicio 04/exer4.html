@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 4</title>
+</head>
+<body>
+    <script>
+         let valor1 = prompt("Digite o primeiro número:");
+
+let valor2 = prompt("Digite o segundo número:");
+
+let menor;
+let maior;
+
+if (valor1 < valor2) {
+    menor = valor1;
+    maior = valor2;
+} else {
+    menor = valor2;
+    maior = valor1;
+}
+
+for (let i = maior; i >= menor; i--) {
+    console.log(i);
+}
+    </script>
+</body>
+</html>
